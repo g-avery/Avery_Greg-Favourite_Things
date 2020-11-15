@@ -1,0 +1,15 @@
+.user-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user { 
+    @include addPadding(10px);
+    .user-name, .user-nickname, .user-role { margin: 0; }
+    img { max-width: 100%; }
+}
+
+@media screen and (min-width: 768px) {
+    .user { flex: 1; }
+    .user img { max-width: 150px; }
+}
