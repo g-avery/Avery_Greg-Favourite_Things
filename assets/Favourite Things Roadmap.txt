@@ -1,0 +1,25 @@
+﻿Greg Avery
+
+
+Favourite Things Roadmap
+
+
+Description:
+        
+A mobile-first responsive page featuring 3 of my favourite things. Content on the page will be taken from a database with more than 4 columns in it. As part of the database, an image and item id will be included. 
+
+
+
+
+Steps:
+1. Create a database in MySQL
+2. Create an app design and make it responsive
+3. Link database to the app using PHP and javascript
+4. Make sure everything is working
+
+
+
+
+Considerations:
+-when creating the database, make sure to use correct types (varchar/int…) for each name
+        -make sure to run code through Postman to check if the backend is working
