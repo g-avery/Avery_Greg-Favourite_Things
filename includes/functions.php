@@ -1,6 +1,4 @@
 <?php
-    // include the file we just wrote - connect
-     // like a JS import statement
 
     $result = array();
 
