@@ -1,9 +1,7 @@
 body {
     font: $main-font;
     font-size: $main-font-size;
-
     background-color: $main-bg-color;
-
     margin: 0 0 50px 0; 
     border: 0;
 }
@@ -11,13 +9,15 @@ body {
 .box {
     width: 30px;
     height: 30px;
-
     @include roundCorners(20px);
 }
 
 .box2 { 
     width: 30px;
     height: 30px;
-
     @include roundCorners(50%);
+}
+
+.title {
+    display: center;
 }
